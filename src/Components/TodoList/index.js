@@ -43,7 +43,7 @@ const TodoList = props => {
             <button
               type="button"
               className="Edit-button"
-              onClick={() => handleEditTodo(todo.id)}
+              onClick={() => handleEditTodo(todo.id, prompt('Edit task:', todo.title))}
             >
               Edit
             </button>
