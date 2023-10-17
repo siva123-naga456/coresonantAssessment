@@ -1,0 +1,19 @@
+.Edit-button {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto;
+  margin: 20px;
+}
+.delete-button {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Roboto;
+  margin: 20px;
+}
+.list-container {
+  display: flex;
+  justify-content: row;
+}
+.color-change {
+  color: red;
+}
